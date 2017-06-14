@@ -116,6 +116,7 @@ abstract class BluetoothNameDialogFragment extends InstrumentedDialogFragment
             mDeviceNameView.setSelection(deviceName.length());
         }
         mDeviceNameView.addTextChangedListener(this);
+        mDeviceNameView.setSelection(mDeviceNameView.getText().length());
         mDeviceNameView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
