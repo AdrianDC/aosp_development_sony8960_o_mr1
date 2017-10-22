@@ -77,4 +77,6 @@
 
     <color name="inspector_value">#ff939393</color>
     <color name="inspector_section_title">#ff939393</color>
+
+    <color name="icon_background">#ff03a9f4</color>  <!--Light Blue 500-->
 </resources>
